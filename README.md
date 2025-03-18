@@ -36,7 +36,7 @@ The Docker container was started with the following command:`docker run -it --na
 *Figure 3: The Refactory tool is run in an isolated Docker container using the `docker run` command, with the required data mounted as a volume.*
 
 ## ⚙️ Step 4: Executing Refactory on Sample Data
-Refactory was run on the question_1 dataset using the following command:`python3 run.py -d ./data -q question_1 -s 10 -o -m -b`
+Refactory was run on the question_1 dataset using the following command:`python3 run.py -d ./data -q question_1 -s 100 -o -m -b`
 
 | **Flag** | **Description**                                                   | **Example Usage**                     |
 |----------|-------------------------------------------------------------------|---------------------------------------|
